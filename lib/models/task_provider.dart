@@ -9,8 +9,7 @@ class TaskProvider with ChangeNotifier{
   List<Task> tasks = [
     Task(title: 'go shopping '),
     Task(title: 'fix the car '),
-    Task(title: 'study networks '),
-    Task(title: 'study networks '),
+    Task(title: 'study networks ')
   ];
 
   addTask(String title){
